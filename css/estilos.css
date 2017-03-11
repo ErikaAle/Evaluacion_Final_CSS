@@ -15,6 +15,12 @@ header{
   top: auto;
 }
 
+section{
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+}
+
 footer{
   width: 100%;
   margin: auto;
@@ -41,22 +47,43 @@ nav{
   word-spacing: 30px;
   font-size: 30px;
   display: inline-block;
-
 }
 
-.encabezado{
+img{
+  border-style: 0 0 2px #02010a
+}
+#encabezado{
   margin: auto;
-  padding-top:30px;
+  padding-top:50px;
 }
 
+.enlace{
+  text-decoration: none;
+}
 .imagen-principal{
+  width: 100%;
   background-color: #82c3ab;
 }
 
+.imagen-principal img{
+  margin: 40px;
+  width: 100%
+  float: inherit;
+  position:relative;
+  height: 80%;
+}
 .imagen-secundaria{
   background-color: #d5c75f;
+  display:  flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+.galeria_paisajes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .contenido {
   width: 100%;
