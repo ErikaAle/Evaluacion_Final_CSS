@@ -20,7 +20,6 @@ footer{
   margin: auto;
   max-width: 900px;
   background-color: #C6d5c5;
-
 }
 
 h1{
@@ -46,6 +45,7 @@ nav{
 }
 
 .encabezado{
+  margin: auto;
   padding-top:30px;
 }
 
@@ -62,7 +62,7 @@ nav{
   width: 100%;
   max-width: 900px;
   margin: auto;
-	
+
 }
 div[ class^="secundaria"]{
   min-height: 300px;
