@@ -1,16 +1,93 @@
-body {
+
+body{
   background: #02010a;
+  width: 100%;
+  font-family: 'Dancing Script'
 }
 
 header{
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+  height: 150px;
   background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  top: auto;
+}
+
+footer{
+  width: 100%;
+  margin: auto;
+  max-width: 900px;
+  background-color: #C6d5c5;
+
+}
+
+h1{
+  width: 100%;
+  margin-top:30px;
+  padding:50px;
+  text-align: left;
+  text-shadow: 0 0 2px #02010a;
+  text-indent: inherit;
+  color: white;
+  display: inline;
+  flex: auto;
+}
+
+nav{
+  margin-right: 20px;
+  height: 100%;
+  float: right;
+  word-spacing: 30px;
+  font-size: 30px;
+  display: inline-block;
+
+}
+
+.encabezado{
+  padding-top:30px;
+}
+
+.imagen-principal{
+  background-color: #82c3ab;
+}
+
+.imagen-secundaria{
+  background-color: #d5c75f;
 }
 
 
-div{
-
+.contenido {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+	
+}
+div[ class^="secundaria"]{
+  min-height: 300px;
+  flex: 1 2 60%;
+}
+.imagen-secundaria{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+.pie-pagina{
+  background-color: #C6d5c5;
 }
 
-.contenido{
-  width: 900px;
+@media {
+
 }
+@media (min-width:600px) {
+	.imagen-principal,.imagen-secundaria{
+		width: 100%;
+		}
+}
+@media (min-width:800px) {
+	.container{
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
