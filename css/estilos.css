@@ -13,6 +13,8 @@ header{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
   top: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 section{
@@ -38,27 +40,40 @@ h1{
   text-shadow: 0 0 2px #02010a;
   text-indent: inherit;
   color: white;
-  display: inline;
-  position: relative;
 
 }
 
-nav{
-  margin-right: 20px;
-  height: 100%;
-  float: right;
-  word-spacing: 30px;
-  font-size: 30px;
-  display: inline-block;
-}
-
-img{
-  border-style: 0 0 2px #02010a
-}
 #encabezado{
   margin: auto;
   padding-top:50px;
+
 }
+#menu-principal{
+  margin-right: 20px;
+  height: 100%;
+  list-style-type: none;
+  word-spacing: 30px;
+  font-size: 1.5em;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  color: white;
+  display:
+  text-align: center;
+  padding: 16px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  border: 2px;
+  border-color: 0 0 2px #02010a;
+  border-style: groove; 0 0 2px #02010a
+}
+
 
 .enlace{
   text-decoration: none;
@@ -66,6 +81,7 @@ img{
 .imagen-principal{
   width: 100%;
   background-color: #82c3ab;
+  margin: auto;
 }
 
 .imagen-principal img{
@@ -76,6 +92,7 @@ img{
 .imagen-secundaria{
   width: 100%;
   max-width: 900px;
+
   margin: auto;
   background-color: #d5c75f;
   display: -webkit-flex;
